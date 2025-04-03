@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab92</title>
+    <link rel="stylesheet" href="style92.css">
+</head>
+<body>
+    <form class="registration-form">
+        <div>Họ và tên:</div>
+        <input type="text">
+        <br>
+        <label>
+            Giới tính:
+            <input type="radio" name="gioitinh" checked /> Nam 
+            <input type="radio" name="gioitinh" /> Nữ
+        </label>
+        <div>Hình ảnh</div>
+        <input type="file"/>
+        <div>Quốc tịch</div>
+        <select>
+            <option value="">USA</option>
+            <option value="">Việt Nam</option>    
+            <option value="">Hàn Quốc</option>    
+            <option value="">Nhật Bản</option>            
+        </select>
+        <div>Trường:</div>
+        <input type="text" list="peter">
+        <datalist id="peter">
+            <option value="FPT Bình Dương">FPT Bình Dương</option>        
+            <option value="FPT TP HCM">FPT TP HCM</option> 
+            <option value="FPT Hà Nội">FPT Hà Nội</option>     
+        </datalist>
+        <div>Sở thích</div>
+        <label><input type="checkbox"> Thể Thao</label>
+        <label><input type="checkbox"> Du Lịch</label>
+        <label><input type="checkbox"> Âm Nhạc</label>
+        <label><input type="checkbox"> Ẩm Thực</label>
+        <div>Ghi chú</div>
+        <textarea></textarea>
+        <hr>
+        <button>Đăng ký</button>
+        <button>Nhập lại</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+td{
+font-family: Arial, Helvetica, sans-serif;
+padding: 15px;
+border: rgb(26, 124, 210) solid 3px;
+text-align: center;
+text-transform: uppercase;
+}
+table{
+border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+background-color: gray;
+}
